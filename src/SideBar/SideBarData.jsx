@@ -8,7 +8,21 @@ const SideBarData = [
         title: "Home",
         path:'/',
         icon: <AiIcons.AiFillHome />,
-        className: 'data_text'
+        className: 'data_text', 
+        children: [
+            {
+                title: "First articles",
+                path: '/articles1'
+            },
+            {
+                title: "Second articles",
+                path: '/articles2'
+            },
+            {
+                title: "Third articles",
+                path: '/articles2'
+            }
+        ]
     },
     {
         title: "Careers",

@@ -18,3 +18,24 @@ body {
   text-align: center;
   height: 800px;
 }
+
+.article {
+  width: 700px;
+  margin: 0px auto;
+  text-align: center;
+
+}
+
+.article_list{
+  margin: 32px;
+  list-style: none;
+}
+
+.article_list a {
+  text-decoration: none;
+}
+
+.article_item + .article_item{
+  padding: 20px 0 0;
+
+}
