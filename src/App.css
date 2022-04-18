@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.careers,
+.products,
+.aboutus,
+.home {
+  max-width: 1400px;
+  margin: 0 0 0 300px;
+  padding: 48px 0 0;
+  text-align: center;
+  height: 800px;
+}
+
+.article {
+  width: 700px;
+  margin: 0px auto;
+  text-align: center;
+
+}
+
+.article_list{
+  margin: 32px;
+  list-style: none;
+}
+
+.article_list a {
+  text-decoration: none;
+}
+
+.article_item + .article_item{
+  padding: 20px 0 0;
+
+}
