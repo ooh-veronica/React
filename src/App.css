@@ -1,0 +1,44 @@
+.allContent{
+  display: grid;
+  width: 1140px;
+  margin: 0 auto;
+  grid-template-areas: 
+  "header header"
+  "asside cont"
+  "footer footer";
+
+  grid-template-rows: 80px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 14px;
+}
+
+
+.headerContent{
+  grid-area: header;
+  background-color: antiquewhite;
+  display: flex;
+}
+
+.headerList{
+  display: flex;
+  margin-left: 50px;
+}
+
+.headerItem + .headerItem {
+  margin: 0 0 0  40px;
+}
+
+.assideContent{
+  grid-area: asside;
+  background-color: rgb(120, 118, 116);
+}
+
+.footerContent{
+  grid-area: footer;
+  background-color: rgb(149, 166, 172);
+}
+
+.contentContainer{
+  grid-area: cont;
+  background-color: rgb(225, 167, 192);
+}
